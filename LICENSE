@@ -1,21 +1,133 @@
-MIT License
+“OPRMT™ is an open prompt engineering standard.
+However, only certified implementations are recognized, validated, and authorized for professional or commercial use.”
+OPRMT™ LICENSE AGREEMENT
 
-Copyright (c) 2026 Michael W Fleming
+Version: v1.0
+Effective Date: [INSERT DATE]
+Licensor: Michael W. Fleming (OPRMT™ Owner)
+Jurisdiction: United States
 
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
+1. DEFINITIONS
 
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
+“OPRMT™ Framework”
+The structured methodology consisting of Objective, Parameters, Results, Method, and Tools, including all associated formats, schemas, prompt structures, and derivatives.
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
+“Licensed Material”
+All documents, prompts, templates, systems, and training materials associated with OPRMT™.
+
+“Certification Authority”
+The official OPRMT™ certification system owned and operated by Licensor.
+
+“User”
+Any individual or entity accessing or using OPRMT™.
+
+2. LICENSE GRANT (PUBLIC USE)
+
+You are granted a limited, non-exclusive, non-transferable license to:
+
+Use the OPRMT™ Framework for personal or internal business use
+Study, learn, and apply the methodology
+Create outputs using OPRMT™ for non-instructional purposes
+
+This license is revocable at any time.
+
+3. MANDATORY ATTRIBUTION
+
+All use of OPRMT™ must include:
+
+“OPRMT™ Framework developed by Michael W. Fleming”
+
+Failure to provide attribution constitutes license violation.
+
+4. PROHIBITED USES (CRITICAL CONTROL)
+
+Without explicit written authorization, you may NOT:
+
+4.1 Teaching & Instruction
+Teach OPRMT™ in any format (course, video, consulting, coaching)
+Present yourself as an OPRMT™ instructor
+4.2 Commercialization
+Sell OPRMT™ prompts, systems, or derivatives
+Package OPRMT™ into paid products or services
+4.3 Certification Misrepresentation
+Claim certification
+Issue certifications
+Represent outputs as “OPRMT™ Certified”
+4.4 Redistribution
+Republish the framework as your own
+Rebrand or white-label OPRMT™
+5. CERTIFICATION REQUIREMENT
+
+To unlock restricted rights, User must:
+
+Complete the official certification program
+Pass all assessments and audits
+Maintain compliance with OPRMT™ standards
+6. LICENSE TIERS
+6.1 Public User (Default)
+Can use OPRMT™
+Cannot teach or sell
+6.2 Certified Engineer (Paid / Verified)
+Can use commercially
+Cannot teach unless licensed
+6.3 Licensed Instructor (Restricted)
+Can teach OPRMT™
+Can create derivative training
+Subject to strict compliance audits
+7. INTELLECTUAL PROPERTY
+OPRMT™ is the exclusive intellectual property of Michael W. Fleming
+This license does NOT transfer ownership
+All rights not explicitly granted are reserved
+8. DERIVATIVE WORKS
+
+You may create outputs using OPRMT™, BUT:
+
+You may NOT replicate the framework structure as a competing system
+You may NOT create confusingly similar frameworks
+9. ENFORCEMENT & COMPLIANCE
+
+Licensor reserves the right to:
+
+Audit usage
+Revoke licenses
+Issue takedown notices
+Pursue legal action for infringement
+10. DIGITAL VERIFICATION REQUIREMENT
+
+All official OPRMT™ materials may include:
+
+Signature blocks
+Certification IDs
+Cryptographic hashes (SHA256)
+
+Absence of these may indicate unauthorized use.
+
+11. DISCLAIMER OF WARRANTIES
+
+OPRMT™ is provided “as is” without warranties of any kind.
+Licensor is not liable for outcomes resulting from use.
+
+12. LIMITATION OF LIABILITY
+
+Licensor shall not be liable for:
+
+Indirect damages
+Loss of business or revenue
+Misuse of the framework
+13. TERMINATION
+
+This license is automatically terminated if:
+
+Terms are violated
+Misrepresentation occurs
+Unauthorized teaching or selling is detected
+
+Upon termination, all rights are revoked immediately.
+
+14. GOVERNING LAW
+
+This agreement is governed by the laws of the United States.
+
+15. ACCEPTANCE
+
+By using OPRMT™, you agree to all terms in this license.
