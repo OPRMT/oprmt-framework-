@@ -1,0 +1,155 @@
+# OPRMT™ Student Certification Manual
+**Student Operations, Assessment, and Credential Use Standard**
+
+- **Document ID:** OPRMT-CERT-STUDENT-MANUAL-1.0.0
+- **Version:** v1.0.0
+- **Release Date:** April 19, 2026
+- **Program Owner:** Michael W. Fleming
+- **Official Site:** oprmt.solutions
+- **Support Contact:** engineering@oprmt.solutions
+
+## 1. Document Control and Authority
+This manual establishes the student-facing operating standard for the OPRMT™ certification program.
+
+- Applies to enrolled students, reviewers, instructors, and administrators working within the current certification edition.
+- Assumes a ten-module learning path aligned to the OPRMT™ framework and associated compliance expectations.
+- Controls student conduct, assessment logic, submission standards, certificate issuance, and permitted credential use.
+- Should be read together with the current curriculum map, assignment instructions, and program notices.
+
+## 2. Program Purpose and Credential Scope
+The certification program is designed to train students to engineer prompts and prompt systems as structured technical assets rather than ad hoc text inputs.
+
+- Teach students to apply the OPRMT™ framework in a repeatable, auditable manner.
+- Develop operational skill in defining objectives, constraints, output requirements, procedures, and tool chains.
+- Train students to produce outputs that are versioned, testable, and suitable for business or technical deployment.
+- Introduce certification-level discipline in documentation, reproducibility, compliance, and evidence-based evaluation.
+
+## 3. Expected Student Outcomes
+By the end of the program, a successful student should be able to:
+
+- Translate an abstract request into a structured OPRMT™ prompt with explicit assumptions and enforceable requirements.
+- Differentiate concept, framework, implementation, and execution within a prompt-driven workflow.
+- Create prompts that specify acceptable outputs, failure conditions, validation criteria, and tool usage rules.
+- Produce documentation and deliverables suitable for client work, internal use, product packaging, or public release.
+- Defend prompt design decisions using structure, rationale, and evidence instead of intuition alone.
+
+## 4. Certification Architecture
+The certification pathway is organized as a staged learning system. Each module has its own lesson, worksheet, and evidence requirements.
+
+| Module | Title | Primary Competency | Required Deliverables |
+|---|---|---|---|
+| M0 | Orientation and Foundations | Program rules, terminology, student workflow, workspace setup | Orientation acknowledgment, setup checklist |
+| M1 | Objective Engineering | Translate requests into clear goals, scope, and success conditions | Objective worksheet, rewritten prompt objective block |
+| M2 | Parameters Engineering | Define constraints, variables, inputs, exclusions, and guardrails | Parameter matrix, constrained prompt build |
+| M3 | Results Engineering | Specify desired outputs, schemas, quality thresholds, and acceptance tests | Output definition sheet, acceptance criteria |
+| M4 | Method Engineering | Sequence procedure, logic, reasoning flow, validation, and correction steps | Method design worksheet, procedural prompt |
+| M5 | Tools Engineering | Declare tools, sources, model behaviors, and execution dependencies | Tooling plan, model/tool integration prompt |
+| M6 | Prompt Assembly and Architecture | Assemble complete multi-part prompts and reusable system assets | Integrated OPRMT™ prompt package |
+| M7 | Prompt Compliance Engineering Introduction | Evaluate structure, compliance, traceability, and policy fit | Compliance review worksheet, remediation notes |
+| M8 | Applied Systems Execution | Deploy OPRMT™ in real workflows, operations, products, or client scenarios | Applied scenario build, evidence log |
+| M9 | Capstone and Final Review | Demonstrate end-to-end competency and defend design choices | Capstone package, final review submission |
+
+## 5. Student Operating Standards
+Students are expected to operate with professional discipline throughout the program.
+
+- Follow the current assignment instructions exactly and use the required naming conventions.
+- Submit work in the required format, with evidence of revision where revision is requested.
+- Label assumptions, dependencies, external tools, and unsupported claims explicitly.
+- Protect confidential, proprietary, or client-sensitive information at all times.
+- Maintain version control over their own work and keep source files for audit or review when requested.
+
+## 6. Assessment and Progression Model
+Certification is performance-based. Completion alone is not sufficient; the student must meet the defined quality threshold.
+
+| Assessment Element | Weight | What Is Evaluated | Minimum Standard |
+|---|---:|---|---|
+| Orientation Completion | Required gate | Program rules acknowledged; workspace and templates prepared | Must be complete before graded progression |
+| Module Quizzes | 20% | Core terminology, framework logic, standards, and application rules | 80% minimum average |
+| Worksheets and Labs | 30% | Component-level execution and structured reasoning evidence | Passing across required modules |
+| Practical Prompt Builds | 25% | Operational prompt construction and revision quality | Reviewer-approved quality threshold |
+| Final Exam | 10% | Integrated knowledge verification across the framework | 85% minimum |
+| Capstone | 15% | End-to-end system build, evidence, and defense | Approval required; no critical violations |
+
+## 7. Submission and Artifact Standards
+Student work is evaluated as an engineered artifact. Every submission must be readable, reproducible, and properly packaged.
+
+| Requirement | Student Rule |
+|---|---|
+| File Naming | Use module code, asset type, and version number in the filename |
+| Metadata | State use case, intended audience, target model or tool, and version |
+| Traceability | Show how the final output maps back to objective, parameters, and results |
+| Reproducibility | Include method steps, test inputs, and any critical execution notes |
+| Professional Format | Deliver readable, organized files suitable for review or client handoff |
+
+## 8. Academic Integrity and Approved AI Use
+This program teaches AI work; therefore AI use is permitted only within the assignment rules and must not replace student accountability.
+
+- Students may use approved AI tools for drafting, testing, comparison, and iteration when the assignment allows it.
+- Students remain responsible for final accuracy, structure, originality, and compliance.
+- Undisclosed copying, resale of another person's work, fabricated validation, or false performance claims are prohibited.
+- Where assistance materially shaped the result, the student must disclose the tool or source and the role it played.
+
+### Critical Integrity Violations
+- Submitting another person's work as your own
+- Falsifying test results, scores, or review history
+- Using undisclosed assistance where disclosure was required
+- Claiming certification before formal issuance
+- Using the credential to imply unauthorized affiliation or authority
+
+## 9. Capstone and Final Certification Review
+The capstone functions as the final demonstration of competency. It must prove that the student can build and defend a complete OPRMT™ system under review.
+
+- The capstone must solve a real or realistic business, technical, operational, or educational problem.
+- The final package must include the prompt system, supporting rationale, validation approach, and resulting outputs.
+- Reviewers may require revision, resubmission, or oral or written clarification before approving certification.
+- A capstone that is operationally impressive but structurally noncompliant does not pass by default.
+
+## 10. Certificate Issuance and Credential Use
+Certificates are issued only after all mandatory requirements have been satisfied and final review has been approved.
+
+| Use Category | Policy |
+|---|---|
+| Permitted Uses | Resume listings, bios, portfolios, proposals, service pages, and internal capability records using the exact approved credential title. |
+| Restricted Uses | Implying legal licensure, regulatory certification, corporate partnership, agency authority, or ownership rights not separately granted. |
+| Prohibited Uses | Editing the certificate, selling the credential itself, misreporting version status, or claiming certification before issuance. |
+| Version Rule | The holder should reference the certification edition or framework version when material to the claim or engagement. |
+
+## 11. Support, Communications, and Student Records
+Program operations require clean communication and reliable recordkeeping.
+
+- Students should use the official support channel for administrative, technical, or certification questions.
+- Feedback and review notes should be preserved as part of the student's working record when revisions are required.
+- Students are responsible for retaining their own copies of submissions, evidence, and final approved deliverables.
+- The program may maintain records related to enrollment, submissions, assessment, issuance status, and disciplinary decisions.
+
+## Appendix A. Student Workspace Standard
+| Folder | Purpose |
+|---|---|
+| 01_Orientation | Orientation acknowledgement, manual, rules, onboarding checklist |
+| 02_Worksheets | Component worksheets and structured learning exercises |
+| 03_Labs | Applied module work and practice outputs |
+| 04_Prompt_Builds | Integrated prompts, revisions, and validation tests |
+| 05_Capstone | Capstone drafts, evidence, review notes, and final package |
+| 06_Certification_Record | Exam result, approval notes, and issued certificate copy |
+
+## Appendix B. Pre-Submission Checklist
+- [ ] The objective is stated in one precise sentence and matches the assignment scope.
+- [ ] Key parameters are explicit: audience, constraints, inputs, exclusions, and assumptions.
+- [ ] The required result is measurable and formatted for evaluation.
+- [ ] The method is sequenced and includes correction or validation behavior where needed.
+- [ ] Required tools or sources are declared; prohibited tools are excluded.
+- [ ] The file is named correctly and versioned.
+- [ ] The submission is readable, organized, and free from unsupported claims.
+- [ ] Supporting evidence is attached when the task requires tests, outputs, or rationale.
+
+## Appendix C. Core Glossary
+| Term | Definition |
+|---|---|
+| Objective | The explicit target the prompt or system is intended to achieve. |
+| Parameters | Constraints, inputs, conditions, variables, exclusions, and operating limits. |
+| Results | The required output form, quality level, acceptance criteria, and expected deliverable state. |
+| Method | The ordered process the system should follow to generate or validate the output. |
+| Tools | Models, sources, files, automations, or external systems allowed or required for execution. |
+| Compliance | Conformance to defined structure, rules, standards, and assignment requirements. |
+| Capstone | The final integrated project used to verify end-to-end certification readiness. |
+| Version Control | The practice of tracking revisions so the current approved artifact can be identified and audited. |
