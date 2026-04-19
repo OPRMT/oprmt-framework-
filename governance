@@ -1,0 +1,256 @@
+# OPRMT™ Framework Governance Charter
+## Version 1.0 | April 19, 2026 | Proprietary — Restricted
+
+---
+
+**Document Version:** 1.0
+**Classification:** Proprietary — Restricted
+**Effective Date:** April 19, 2026
+**Governing Authority:** Michael W. Fleming
+**Contact:** engineering@oprmt.solutions | oprmt.solutions
+
+---
+
+> **OFFICIAL STATUS:** This document constitutes the official governing authority for all OPRMT™ specifications, libraries, certifications, and derivative systems. Compliance is mandatory.
+
+---
+
+## Table of Contents
+
+| Article | Subject | Authority Level |
+|---------|---------|----------------|
+| 1 | Purpose and Mission Statement | Foundational |
+| 2 | Scope of Application | Universal |
+| 3 | Governing Authority and Leadership | Executive |
+| 4 | Version Control and Change Management | Technical |
+| 5 | Contribution Protocol | Operational |
+| 6 | Compliance and Quality Standards | Enforcement |
+| 7 | Certification System | Credentialing |
+| 8 | Intellectual Property and Proprietary Rights | Legal |
+| 9 | Standardization and Documentation | Technical |
+| 10 | Enforcement, Auditability, and Traceability | Governance |
+| 11 | Amendment Process | Procedural |
+| 12 | Charter Status and Authority | Administrative |
+| Appendix A | Governance Summary Table | — |
+| Appendix B | Approval and Signature Block | — |
+
+---
+
+## Article 1 — Purpose and Mission Statement
+
+The OPRMT™ Framework Governance Charter establishes the definitive governing authority for all aspects of the OPRMT™ Prompt Engineering Systems framework. This Charter defines the structural, procedural, and enforcement standards that ensure the integrity, consistency, and commercial viability of the framework across all applications.
+
+The mission of this Charter is to maintain a single canonical source of truth for all OPRMT™ specifications, to protect the intellectual property of the framework, and to enforce the quality and compliance standards that define the OPRMT™ brand in the marketplace.
+
+**Core Objectives:**
+
+- Define the authority structure governing all OPRMT™ outputs.
+- Establish enforceable compliance standards for all library assets.
+- Protect the commercial and intellectual integrity of the framework.
+- Provide a traceable, auditable governance record for all changes.
+
+---
+
+## Article 2 — Scope of Application
+
+This Charter applies universally and without exception to all OPRMT™ specifications, prompt libraries, certification programs, derivative systems, digital products, and any third-party implementations operating under the OPRMT™ brand or licensing structure.
+
+Any system, product, or output that references, incorporates, or derives from OPRMT™ intellectual property is subject to the standards and enforcement protocols defined herein. No exemptions are granted without formal written approval from the governing authority.
+
+**Scope Includes:**
+
+- All five-component OPRMT™ framework specifications (OBJ, PAR, RES, MET, TLS).
+- The DOAS™ scoring system and DCI™ formula.
+- All prompt cluster libraries and digital product releases.
+- The OPRMT™ Certification Program Engineering (CPE) infrastructure.
+- All automation systems, APIs, and third-party integrations.
+- Web properties, sales pages, and brand communications.
+
+---
+
+## Article 3 — Governing Authority and Leadership
+
+The OPRMT™ Framework is governed exclusively by Michael W. Fleming, Founder and Lead Authority of OPRMT™ Prompt Engineering Systems. All decisions pertaining to framework architecture, standards enforcement, certification issuance, and intellectual property are reserved to the governing authority.
+
+No modification to this Charter, the framework specifications, or any certified component may be enacted without the explicit approval of the governing authority. All contributors, licensees, and certified operators operate within the boundaries established by this office.
+
+**Authority Responsibilities:**
+
+- Sole authority over framework architecture and version approval.
+- Final decision power over certification issuance and revocation.
+- Exclusive authority to authorize derivative works or licensing agreements.
+- Responsibility for the integrity and public representation of the OPRMT™ brand.
+
+---
+
+## Article 4 — Version Control and Change Management
+
+All OPRMT™ specifications, libraries, and certified assets are subject to semantic versioning enforced under the format MAJOR.MINOR.PATCH. The canonical version source is the official GitHub repository maintained by the governing authority.
+
+Every version increment must be accompanied by a structured change log documenting the rationale, scope of change, affected components, and approval status. No undocumented changes are permitted in any production-grade OPRMT™ asset.
+
+**Versioning Protocol:**
+
+- **MAJOR:** Breaking changes to framework architecture or compliance standards.
+- **MINOR:** New components, prompts, or non-breaking feature additions.
+- **PATCH:** Corrections, clarifications, and minor refinements.
+- All version transitions require a documented change log entry.
+- GitHub is the sole canonical source. Local copies are subordinate.
+
+---
+
+## Article 5 — Contribution Protocol
+
+Contributions to the OPRMT™ framework are restricted to certified and formally approved contributors. No external submission may be incorporated into a production-grade OPRMT™ asset without passing through the defined validation workflow.
+
+The validation workflow requires structural review against OPRMT™ component specifications, DOAS™ compliance scoring, PCE™ discipline validation, and explicit approval by the governing authority prior to any version increment or public release.
+
+**Contribution Requirements:**
+
+- Contributors must hold active OPRMT™ certification status.
+- All submissions undergo DOAS™ compliance scoring prior to review.
+- PCE™ discipline standards must be satisfied for all prompt assets.
+- Governing authority approval is required before any production merge.
+- Rejected submissions are documented with remediation requirements.
+
+---
+
+## Article 6 — Compliance and Quality Standards
+
+All outputs produced under the OPRMT™ framework must meet the structural and quality standards defined in the current OPRMT™ Framework Specification and the DCS v2.0 compliance standard. Compliance is not optional and is enforced at every release gate.
+
+The DOAS™ scoring system (Design Quality, Output Predictability, Architecture Compliance, System Efficiency) is the primary quality measurement instrument. All commercial-grade prompt assets must achieve a minimum DOAS™ threshold prior to release.
+
+**Compliance Standards:**
+
+- Full five-component structure (OBJ, PAR, RES, MET, TLS) is mandatory.
+- DOAS™ scoring must meet minimum threshold for production release.
+- DCS v2.0 compliance is required for all certified library assets.
+- SHA-256 integrity hashing is applied to all versioned specifications.
+- PCE™ validation is required for all prompt engineering outputs.
+
+---
+
+## Article 7 — Certification System
+
+The OPRMT™ Certification Program Engineering (CPE) system governs the issuance, maintenance, and revocation of all OPRMT™ certifications. Certification is issued exclusively under the authority of Michael W. Fleming and is subject to strict integrity and anti-fraud protocols.
+
+All certification assessments are evaluated against DOAS™ criteria using open-response AI grading. Session integrity is enforced through session tokens and anti-cheat architecture. Certification records are maintained in a Google Apps Script backend with full auditability.
+
+**Certification Standards:**
+
+- Certification is issued only upon passing all DOAS™ evaluation criteria.
+- Anti-cheat architecture prevents unauthorized access or duplication.
+- Session tokens are required for all certification assessment submissions.
+- Revocation authority rests solely with the governing authority.
+- All certification records are maintained with a full audit trail.
+
+---
+
+## Article 8 — Intellectual Property and Proprietary Rights
+
+The OPRMT™ framework, all associated trademarks, specifications, prompt libraries, scoring systems, and methodologies are the exclusive proprietary property of Michael W. Fleming. All rights are reserved.
+
+No portion of the OPRMT™ framework may be reproduced, distributed, sublicensed, reverse-engineered, or incorporated into derivative works without explicit written authorization from the governing authority. Unauthorized use constitutes infringement and will be enforced.
+
+**Proprietary Designations:**
+
+- OPRMT™, DOAS™, PCE™, and DCI™ are proprietary designations.
+- All prompt library assets are commercial intellectual property.
+- Licensing agreements must be executed in writing prior to any authorized use.
+- Derivative works require explicit written approval and attribution.
+- Infringement is subject to enforcement under applicable law.
+
+---
+
+## Article 9 — Standardization and Documentation
+
+The OPRMT™ framework is maintained through a structured documentation system anchored to the official GitHub repository. All specifications, component standards, and library assets are maintained in GitHub-compatible formats with full version history.
+
+Official documentation includes the OPRMT™ Framework Specification (v1.0), the DCS v2.0 Technical Specification, all five component specifications (OBJ, PAR, RES, MET, TLS), and the PCE™ discipline specification. These documents constitute the canonical reference for all compliance determinations.
+
+**Documentation Standards:**
+
+- GitHub is the sole canonical source for all framework specifications.
+- Documentation updates follow the version control protocol in Article 4.
+- All component specifications are maintained as standalone reference documents.
+- Public-facing documentation is reviewed prior to each release.
+
+---
+
+## Article 10 — Enforcement, Auditability, and Traceability
+
+Governance enforcement ensures that all OPRMT™ assets, certifications, and derivative outputs maintain full auditability and traceability. Every production asset must carry a traceable version identifier, creation record, and compliance status.
+
+Enforcement actions, including non-compliance findings, remediation requirements, and revocation decisions, are documented in the governance record and maintained by the governing authority. No undocumented enforcement action is recognized as valid.
+
+**Enforcement Requirements:**
+
+- Every production asset carries a unique Prompt ID and version identifier.
+- Compliance status is recorded at each release gate.
+- Non-compliance findings are documented with remediation requirements.
+- Revocation decisions are recorded in the governance audit trail.
+- SHA-256 hashing provides integrity verification for all specifications.
+
+---
+
+## Article 11 — Amendment Process
+
+Amendments to this Charter require formal approval by the governing authority and must be documented as a version increment under the version control protocol established in Article 4. No informal or undocumented amendments are recognized as valid.
+
+Proposed amendments must include a written rationale, a description of the affected sections, the proposed replacement language, and an effective date. All ratified amendments are incorporated into the next version release of this Charter.
+
+**Amendment Protocol:**
+
+- All amendments require explicit written approval from the governing authority.
+- Amendments trigger a version increment under the semantic versioning protocol.
+- Proposed amendments must document rationale and affected sections.
+- Informal modifications to this Charter carry no legal or operational weight.
+
+---
+
+## Article 12 — Charter Status and Authority
+
+This document, the OPRMT™ Framework Governance Charter Version 1.0, constitutes the official and binding governing authority for all matters within its stated scope. It supersedes all prior informal governance arrangements, verbal agreements, or earlier draft documents.
+
+This Charter takes effect upon the date recorded herein and remains in force until formally superseded by a ratified subsequent version. Questions of interpretation are resolved exclusively by the governing authority.
+
+---
+
+## Appendix A — Governance Summary Table
+
+| Article | Subject | Authority Level |
+|---------|---------|----------------|
+| 1 | Purpose and Mission Statement | Foundational |
+| 2 | Scope of Application | Universal |
+| 3 | Governing Authority and Leadership | Executive |
+| 4 | Version Control and Change Management | Technical |
+| 5 | Contribution Protocol | Operational |
+| 6 | Compliance and Quality Standards | Enforcement |
+| 7 | Certification System | Credentialing |
+| 8 | Intellectual Property and Proprietary Rights | Legal |
+| 9 | Standardization and Documentation | Technical |
+| 10 | Enforcement, Auditability, and Traceability | Governance |
+| 11 | Amendment Process | Procedural |
+| 12 | Charter Status and Authority | Administrative |
+
+---
+
+## Appendix B — Approval and Signature Block
+
+| Role | Name | Date | Signature |
+|------|------|------|-----------|
+| Founder and Governing Authority | Michael W. Fleming | April 19, 2026 | ________________________ |
+| Lead Engineer, OPRMT™ Systems | OPRMT™ Engine | April 19, 2026 | ________________________ |
+
+---
+
+> **GOVERNING AUTHORITY:** This Charter is issued under the sole authority of Michael W. Fleming, Founder of OPRMT™ Prompt Engineering Systems. All framework operations, certifications, and enforcement actions derive their legitimacy from this document.
+>
+> **Contact:** engineering@oprmt.solutions | oprmt.solutions
+
+---
+
+*© 2026 Michael W. Fleming. All Rights Reserved.*
+*OPRMT™ Prompt Engineering Systems | Version 1.0 | Proprietary — Restricted*
+*GitHub Canonical Source | engineering@oprmt.solutions*
