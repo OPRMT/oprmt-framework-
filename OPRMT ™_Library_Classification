@@ -1,0 +1,646 @@
+# OPRMT(TM) Library Classification Manual
+**Document ID:** OPRMT-LCM-1.0  
+**Version:** v1.0.0  
+**Status:** Controlled Release  
+**Authority:** OPRMT(TM) Framework Governance Layer  
+**Primary Use Case:** Classification, naming, indexing, packaging, and retrieval of library assets  
+**Audience:** Founders, library managers, taxonomy owners, prompt engineers, certification admins, repository maintainers
+
+---
+
+## 1. Purpose
+
+This manual defines the official classification standard for organizing assets inside an OPRMT-aligned library. It establishes a repeatable method for assigning category placement, artifact codes, metadata, lifecycle state, and storage location to every controlled asset.
+
+The objective is operational consistency. A library cannot scale if assets are named ad hoc, stored inconsistently, or published without a stable taxonomy. This manual converts the library into a governed system with deterministic classification rules.
+
+---
+
+## 2. Scope
+
+This manual applies to all controlled library assets, including:
+
+- prompt clusters
+- single prompts
+- manuals
+- specifications
+- policies
+- worksheets
+- scripts
+- templates
+- automation workflows
+- sales assets
+- certification materials
+- implementation kits
+- release packages
+- archived or deprecated assets
+
+This manual does **not** replace product strategy, curriculum design, or engineering standards. It governs classification and library placement.
+
+---
+
+## 3. Classification Objectives
+
+The classification model is designed to satisfy seven requirements:
+
+1. **Findability** - assets must be retrievable by code, name, domain, and type.
+2. **Consistency** - similar artifacts must use the same naming and placement rules.
+3. **Governance** - controlled assets must have clear ownership and review status.
+4. **Version Traceability** - released assets must be distinguishable from draft or retired versions.
+5. **Productization Readiness** - a classified asset must be able to move into packaging, sales, or certification workflows.
+6. **Automation Compatibility** - metadata must be structured enough for scripts, spreadsheets, repositories, and forms.
+7. **Scalability** - the system must remain stable as the library grows across domains and product lines.
+
+---
+
+## 4. Governing Principles
+
+All classification decisions shall follow these principles:
+
+- **One asset, one primary classification.** Secondary tags may exist, but every asset requires one authoritative home.
+- **Type before title.** The artifact type must be known before naming is finalized.
+- **Domain before packaging.** Classify the operational domain first; do not classify by marketing headline alone.
+- **Controlled metadata over freeform description.** Core fields must be standardized.
+- **Lifecycle state is mandatory.** Unstated status creates operational ambiguity.
+- **Codes must be stable.** Once released, an asset code should not be changed without governance action.
+- **Archive, do not overwrite history.** Deprecated assets remain traceable.
+
+---
+
+## 5. Classification Architecture
+
+The official model uses five layers.
+
+| Layer | Name | Function | Example |
+|---|---|---|---|
+| L1 | Library Family | top-level portfolio grouping | CERT |
+| L2 | Domain Class | business or operational domain | SLS |
+| L3 | Collection Class | product or collection grouping | CLUSTER |
+| L4 | Artifact Type | specific artifact form | MANUAL |
+| L5 | Lifecycle State | maturity and release position | RELEASED |
+
+### 5.1 Layer 1: Library Family Codes
+
+| Code | Family Name | Use |
+|---|---|---|
+| CORE | Core Framework | canonical framework assets |
+| LIB | General Library | standard library products and assets |
+| CERT | Certification | student, instructor, assessment, and credential artifacts |
+| KIT | Business Kit | implementation packages and operational kits |
+| GOV | Governance | policies, standards, manuals, control documents |
+| SPEC | Specification | technical and canonical specification documents |
+| OPS | Operations | internal execution, workflows, admin materials |
+| MKT | Marketing | sales pages, launch materials, brand assets |
+| SVC | Services | service delivery assets, scopes, audit materials |
+
+### 5.2 Layer 2: Domain Class Codes
+
+| Code | Domain |
+|---|---|
+| ADM | Administrative and Operations |
+| SLS | Sales and Revenue Systems |
+| MKT | Marketing and Content |
+| FIN | Finance and Reporting |
+| HR | Human Resources and People Operations |
+| EDU | Education and Certification |
+| RSR | Research and Intelligence |
+| STR | Strategy and Decision Systems |
+| DEV | Engineering and Technical Build |
+| COM | Compliance and Validation |
+| BRD | Brand and Positioning |
+| LEG | Policy, Legal, and Risk Documentation |
+| GEN | General / Cross-domain |
+
+### 5.3 Layer 3: Collection Class Codes
+
+| Code | Collection Class | Definition |
+|---|---|---|
+| CLUSTER | Prompt Cluster | grouped prompts solving one business function |
+| LIBSET | Library Set | multi-cluster or multi-asset collection |
+| COURSE | Course | structured learning product |
+| MODULE | Module | bounded section within a course |
+| KIT | Kit | operational package with templates and assets |
+| SERIES | Series | recurring or versioned content line |
+| REPO | Repository | canonical or implementation repository unit |
+| PACK | Release Package | assembled customer or student deliverable |
+| INDEX | Index | navigation, inventory, or catalog asset |
+
+### 5.4 Layer 4: Artifact Type Codes
+
+| Code | Artifact Type |
+|---|---|
+| PROMPT | Single prompt |
+| MANUAL | Manual or handbook |
+| SPEC | Specification |
+| POLICY | Policy |
+| SOP | Standard operating procedure |
+| GUIDE | Guide |
+| WORKSHEET | Worksheet |
+| QUIZ | Quiz |
+| EXAM | Examination |
+| SCRIPT | Script or automation code |
+| TEMPLATE | Template |
+| CHECKLIST | Checklist |
+| SALES | Sales page or promotional copy asset |
+| IMAGE | Graphic asset |
+| SLIDES | Slide deck |
+| FORM | Intake or structured form |
+| README | Readme or usage file |
+| LICENSE | License file |
+| ASSETMAP | Asset inventory or mapping file |
+
+### 5.5 Layer 5: Lifecycle State Codes
+
+| Code | Meaning |
+|---|---|
+| DRAFT | being created, not reviewed |
+| REVIEW | under structured review |
+| APPROVED | accepted internally, not yet released |
+| RELEASED | active public or production version |
+| DEPRECATED | replaced, no longer recommended |
+| ARCHIVED | retained for record only |
+| SUPERSEDED | explicitly replaced by another coded asset |
+
+---
+
+## 6. Official Asset Code Syntax
+
+The standard asset code format is:
+
+`[Family]-[Domain]-[Collection]-[Type]-[Sequence]-[Version]`
+
+### 6.1 Syntax Rules
+
+- `Family` = Layer 1 code
+- `Domain` = Layer 2 code
+- `Collection` = Layer 3 code
+- `Type` = Layer 4 code
+- `Sequence` = 3-digit numeric identifier inside that class
+- `Version` = semantic version in `vX.Y.Z` format
+
+### 6.2 Example Codes
+
+| Asset | Code |
+|---|---|
+| Sales cluster manual | LIB-SLS-CLUSTER-MANUAL-001-v1.0.0 |
+| Certification student worksheet | CERT-EDU-MODULE-WORKSHEET-004-v1.0.0 |
+| Governance naming policy | GOV-COM-INDEX-POLICY-002-v1.0.0 |
+| Admin operations prompt set | LIB-ADM-CLUSTER-PROMPT-007-v1.0.0 |
+| OPRMT core specification | SPEC-GEN-REPO-SPEC-001-v1.0.0 |
+
+### 6.3 Sequence Assignment Rules
+
+- Sequence numbers are unique inside the same Family + Domain + Collection + Type combination.
+- Released codes are never recycled.
+- If an asset is split into multiple controlled assets, each new artifact receives a new sequence.
+- Sequence changes require library index updates.
+
+---
+
+## 7. Required Metadata Schema
+
+Every controlled asset must include the following minimum metadata.
+
+| Field | Required | Description |
+|---|---|---|
+| Asset Code | Yes | official classification code |
+| Asset Title | Yes | human-readable title |
+| Version | Yes | semantic version |
+| Status | Yes | lifecycle state |
+| Owner | Yes | responsible role or authority |
+| Library Family | Yes | Layer 1 value |
+| Domain Class | Yes | Layer 2 value |
+| Collection Class | Yes | Layer 3 value |
+| Artifact Type | Yes | Layer 4 value |
+| Sequence ID | Yes | numeric identifier |
+| Use Case | Yes | intended business or learner use |
+| Audience | Yes | target user or buyer |
+| Dependencies | Conditional | prerequisite files, scripts, or linked assets |
+| Parent Asset | Conditional | parent code if asset belongs to larger package |
+| Release Date | Conditional | required for released assets |
+| Review Date | Conditional | required for approved or released assets |
+| Tags | Recommended | search and filter terms |
+| Storage Path | Yes | canonical folder or repository path |
+
+### 7.1 Extended Metadata Recommended for Product Assets
+
+For customer-facing assets, also include:
+
+- difficulty level
+- output type
+- platform compatibility
+- monetization class
+- delivery format
+- license scope
+- validation status
+- packaging completeness
+
+---
+
+## 8. Classification Decision Logic
+
+Use the following order for classification:
+
+### Step 1: Determine whether the asset is controlled
+If the asset is intended for reuse, release, training, delivery, governance, or repository storage, it is a controlled asset.
+
+### Step 2: Determine the primary family
+Choose the top-level portfolio that owns the asset operationally.
+
+### Step 3: Determine the primary domain
+Select the domain based on the asset's main business purpose, not optional use cases.
+
+### Step 4: Determine the collection class
+Identify whether the asset belongs to a cluster, course, kit, series, repository, or release package.
+
+### Step 5: Determine the artifact type
+Classify the actual form of the artifact: manual, prompt, checklist, script, etc.
+
+### Step 6: Assign lifecycle state
+Determine whether the asset is draft, under review, released, deprecated, or archived.
+
+### Step 7: Assign sequence and version
+Issue the next valid sequence and the correct semantic version.
+
+### Step 8: Register metadata
+Add the asset to the library index before release.
+
+---
+
+## 9. Naming Standard
+
+The human-readable file name should follow this pattern:
+
+`[AssetCode]_[Short-Title]`
+
+### 9.1 File Naming Rules
+
+- Use title case or structured hyphen style consistently.
+- Keep short titles concise and operational.
+- Do not use vague names such as `final`, `new`, `latest`, `good copy`, or `updated version`.
+- Do not omit the asset code from controlled deliverables.
+- Do not place status words in the short title if status is already tracked in metadata.
+
+### 9.2 Good Examples
+
+- `LIB-SLS-CLUSTER-MANUAL-001-v1.0.0_Sales-Funnel-Architecture-Manual.pdf`
+- `CERT-EDU-MODULE-WORKSHEET-004-v1.0.0_Module-04-Worksheet.md`
+- `GOV-COM-INDEX-POLICY-002-v1.0.0_Library-Naming-Policy.pdf`
+
+### 9.3 Invalid Examples
+
+- `sales manual final.pdf`
+- `new prompt list.md`
+- `cluster update latest version 2.pdf`
+
+---
+
+## 10. Folder and Repository Placement Standard
+
+Classification must map to storage structure. The default folder pattern is:
+
+`/Family/Domain/Collection/Type/AssetCode/`
+
+### 10.1 Example Paths
+
+- `/LIB/SLS/CLUSTER/MANUAL/LIB-SLS-CLUSTER-MANUAL-001-v1.0.0/`
+- `/CERT/EDU/MODULE/WORKSHEET/CERT-EDU-MODULE-WORKSHEET-004-v1.0.0/`
+- `/GOV/COM/INDEX/POLICY/GOV-COM-INDEX-POLICY-002-v1.0.0/`
+
+### 10.2 Standard Contents for an Asset Folder
+
+A released asset folder should contain, where applicable:
+
+- source file
+- PDF release
+- markdown or editable source
+- README
+- metadata record
+- related assets
+- changelog reference
+- license file
+- support materials or placeholders
+
+---
+
+## 11. Version Control Rules
+
+Versioning follows semantic structure:
+
+- `v1.0.0` - first stable controlled release
+- `v1.1.0` - non-breaking content expansion or improvement
+- `v1.1.1` - minor correction, formatting fix, metadata correction
+- `v2.0.0` - major structural or classification-impacting revision
+
+### 11.1 When to Increment Major Versions
+
+Increment the major version when any of the following occur:
+
+- taxonomy structure changes
+- required metadata fields change materially
+- compatibility with previous index logic is broken
+- certification alignment changes
+- packaging rules change across the manual
+
+### 11.2 When to Create a New Asset Instead of a New Version
+
+Create a new asset code when:
+
+- the asset serves a different primary use case
+- the domain changes
+- the artifact type changes
+- the asset is split into separately governed deliverables
+- the parent collection changes materially
+
+---
+
+## 12. Lifecycle Governance
+
+### 12.1 Draft
+The asset is being built. It may be incomplete and may not be distributed as authoritative.
+
+### 12.2 Review
+The asset is under structured internal review. Metadata must already exist, even if incomplete.
+
+### 12.3 Approved
+The asset passed review and is ready for packaging or scheduled release.
+
+### 12.4 Released
+The asset is active and may be used operationally, sold, taught, or referenced publicly.
+
+### 12.5 Deprecated
+The asset remains visible for traceability but should not be used for new work.
+
+### 12.6 Archived
+The asset is retained only as a record.
+
+### 12.7 Superseded
+The asset remains traceable but points to a replacement code.
+
+---
+
+## 13. Indexing and Catalog Rules
+
+Every controlled asset must exist in a master library index. The index should support, at minimum, the following lookup dimensions:
+
+- asset code
+- title
+- family
+- domain
+- collection class
+- artifact type
+- status
+- owner
+- version
+- tags
+- storage path
+
+### 13.1 Search Priority
+
+Search systems should prioritize:
+
+1. exact asset code match
+2. title match
+3. domain + type filtering
+4. tags
+5. parent-child relationships
+
+### 13.2 Parent-Child Relationship Standard
+
+Where relevant, store these relationships:
+
+- parent package -> child assets
+- course -> modules
+- cluster -> prompts
+- kit -> templates, scripts, manuals
+- specification -> dependent guides or worksheets
+
+---
+
+## 14. Release Packaging Rules
+
+A classified asset is not release-ready until classification and packaging are aligned.
+
+### 14.1 Minimum Release Package for a Controlled Library Product
+
+| Component | Required |
+|---|---|
+| classified source file | Yes |
+| release PDF | Yes |
+| metadata record | Yes |
+| README or usage note | Yes |
+| version marker | Yes |
+| license statement | Yes |
+| index entry | Yes |
+
+### 14.2 Additional Package Components by Asset Type
+
+- **Prompt clusters** should include prompt files, README, output expectations, and automation references.
+- **Manuals** should include source, PDF, metadata, and any linked appendices.
+- **Certification materials** should include role alignment, module mapping, and assessment references.
+- **Kits** should include folder structure, placeholders, implementation instructions, and automation assets where relevant.
+
+---
+
+## 15. Classification Examples
+
+### 15.1 Example A: Student Certification Manual
+
+| Field | Value |
+|---|---|
+| Family | CERT |
+| Domain | EDU |
+| Collection | COURSE |
+| Type | MANUAL |
+| Sequence | 001 |
+| Version | v1.0.0 |
+| Final Code | CERT-EDU-COURSE-MANUAL-001-v1.0.0 |
+
+### 15.2 Example B: Administrative Operations Prompt Cluster
+
+| Field | Value |
+|---|---|
+| Family | LIB |
+| Domain | ADM |
+| Collection | CLUSTER |
+| Type | PROMPT |
+| Sequence | 007 |
+| Version | v1.0.0 |
+| Final Code | LIB-ADM-CLUSTER-PROMPT-007-v1.0.0 |
+
+### 15.3 Example C: Governance Naming Policy
+
+| Field | Value |
+|---|---|
+| Family | GOV |
+| Domain | COM |
+| Collection | INDEX |
+| Type | POLICY |
+| Sequence | 002 |
+| Version | v1.0.0 |
+| Final Code | GOV-COM-INDEX-POLICY-002-v1.0.0 |
+
+---
+
+## 16. Nonconformities
+
+The following conditions are classification nonconformities:
+
+- missing asset code
+- missing lifecycle state
+- file stored outside canonical path without documented exception
+- mismatched code and metadata
+- released asset without version control
+- duplicate sequence in the same class
+- title and code referring to different asset types
+- public distribution of draft-classified material without exception approval
+
+### 16.1 Corrective Action Standard
+
+When a nonconformity is found:
+
+1. identify the authoritative record
+2. freeze conflicting releases if required
+3. correct metadata and storage path
+4. update index entries
+5. issue version correction or reclassification notice if needed
+
+---
+
+## 17. Roles and Responsibilities
+
+| Role | Responsibility |
+|---|---|
+| Library Owner | final authority for taxonomy and release integrity |
+| Taxonomy Manager | maintains classes, codes, and mapping rules |
+| Product Builder | proposes asset classification and metadata |
+| Reviewer | validates placement, type, and lifecycle state |
+| Repository Maintainer | ensures file path and folder compliance |
+| Certification Admin | aligns educational assets to certification structure |
+
+---
+
+## 18. Implementation Standard
+
+### 18.1 Required Operational Controls
+
+- master library index
+- controlled naming pattern
+- sequence issuance log
+- approved class list
+- version history mechanism
+- archive policy
+- periodic metadata audit
+
+### 18.2 Recommended Automation Targets
+
+The classification system should be automated wherever possible. Recommended automation points:
+
+- code generation from metadata form inputs
+- folder creation from class selection
+- validation of required metadata fields
+- duplicate code detection
+- lifecycle status dashboard
+- release package completeness checks
+- tag normalization
+- deprecated-to-superseded link tracking
+
+---
+
+## 19. Audit Checklist
+
+Use this checklist before classifying an asset as released.
+
+- asset has one primary classification
+- asset code matches metadata
+- domain reflects primary operational use
+- collection class is correct
+- artifact type is correct
+- sequence is unique
+- version is valid
+- lifecycle state is declared
+- storage path is canonical
+- index entry exists
+- release package is complete
+- parent-child links are recorded when applicable
+
+---
+
+## 20. Change Control
+
+Changes to this manual require governance review when they affect:
+
+- class definitions
+- metadata requirements
+- syntax rules
+- lifecycle definitions
+- repository placement rules
+- packaging rules
+- automation dependencies
+- certification mapping
+
+Minor wording corrections may be issued as patch revisions if no classification logic changes.
+
+---
+
+## 21. Final Rule
+
+If an asset cannot be classified cleanly, it is not ready for release.
+
+The purpose of classification is not labeling for its own sake. The purpose is operational control. A controlled library is one in which every asset can be identified, located, interpreted, versioned, governed, and reused without ambiguity.
+
+---
+
+## Appendix A: Recommended Master Index Columns
+
+- Asset Code
+- Asset Title
+- Family
+- Domain
+- Collection
+- Type
+- Sequence
+- Version
+- Status
+- Owner
+- Parent Asset
+- Audience
+- Use Case
+- Tags
+- Storage Path
+- Release Date
+- Review Date
+- Notes
+
+## Appendix B: Short Classification Intake Form
+
+| Question | Response Needed |
+|---|---|
+| What is the asset title? | text |
+| What is the primary use case? | text |
+| Which family owns it? | controlled list |
+| Which domain does it primarily serve? | controlled list |
+| What collection does it belong to? | controlled list |
+| What artifact type is it? | controlled list |
+| Is it new or a revision? | controlled list |
+| What lifecycle state applies? | controlled list |
+| Who owns it? | role or name |
+| Where will it be stored? | canonical path |
+
+## Appendix C: Recommended Controlled Vocabularies
+
+### Status Vocabulary
+`DRAFT, REVIEW, APPROVED, RELEASED, DEPRECATED, ARCHIVED, SUPERSEDED`
+
+### Packaging Completeness Vocabulary
+`INCOMPLETE, SOURCE_ONLY, INTERNAL_READY, RELEASE_READY`
+
+### License Scope Vocabulary
+`INTERNAL, COMMUNITY, COMMERCIAL, RESTRICTED`
+
+### Validation Status Vocabulary
+`UNVALIDATED, CHECKED, QA_APPROVED, CANONICAL`
+
+---
+
+**End of Manual**
